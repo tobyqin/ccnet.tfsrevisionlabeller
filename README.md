@@ -23,10 +23,12 @@ Restart the CruiseControl.NET Service
 1. Start -> Run -> services.msc
 2. Right-Click on the CruiseControl.NET Service
 3. Restart
+
 Modify your ccnet.config file to effectively use the labeller against your Team Foundation Server installation
 
 ##Use
 
+```xml
 Modify your ccnet.config file, under the <project> node
      <labeller type="tfsRevisionLabeller">
         <project>$/Main/MyTestProject</project>
@@ -37,3 +39,4 @@ Modify your ccnet.config file, under the <project> node
         <major>1</major>
         <minor>4</minor>
      </labeller>
+```
