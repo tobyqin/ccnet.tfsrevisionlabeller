@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BA3EE510-B3B3-4C62-94C7-428B7725728D}"
+	ProjectSection(SolutionItems) = preProject
+		CCNet.TfsRevisionLabeller.PlugIn.Test\LocalTestRun.testrunconfig = CCNet.TfsRevisionLabeller.PlugIn.Test\LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCNet.TfsRevisionLabeller.PlugIn", "CCNet.TfsRevisionLabeller.PlugIn\CCNet.TfsRevisionLabeller.PlugIn.csproj", "{74633F9C-A85C-4A78-863A-09C1B69EC50D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCNet.TfsRevisionLabeller.PlugIn.Test", "CCNet.TfsRevisionLabeller.PlugIn.Test\CCNet.TfsRevisionLabeller.PlugIn.Test.csproj", "{56A67761-C70F-4C46-8AFB-7A5F23133D7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74633F9C-A85C-4A78-863A-09C1B69EC50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74633F9C-A85C-4A78-863A-09C1B69EC50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74633F9C-A85C-4A78-863A-09C1B69EC50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74633F9C-A85C-4A78-863A-09C1B69EC50D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56A67761-C70F-4C46-8AFB-7A5F23133D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56A67761-C70F-4C46-8AFB-7A5F23133D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56A67761-C70F-4C46-8AFB-7A5F23133D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56A67761-C70F-4C46-8AFB-7A5F23133D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CCNet.TfsRevisionLabeller.PlugIn.vsmdi
+	EndGlobalSection
+EndGlobal
