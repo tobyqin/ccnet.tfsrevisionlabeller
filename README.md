@@ -17,7 +17,7 @@ builds (and, eventually, Assemblies) directly from CruiseControl.NET .
 
 ##Installation
 
-Extract the .zip file content into the CruiseControl.NET Installation folder (e.g. C:\Program Files\CruiseControl.NET\server)
+Download ccnet.tfsrevisionlabeller.plugin.dll file  from Release into the CruiseControl.NET Installation folder (e.g. C:\Program Files\CruiseControl.NET\server)
 Restart the CruiseControl.NET Service
 
 1. Start -> Run -> services.msc
