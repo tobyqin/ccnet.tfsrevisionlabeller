@@ -28,8 +28,8 @@ Modify your ccnet.config file to effectively use the labeller against your Team 
 
 ##Use
 
-```xml
 Modify your ccnet.config file, under the <project> node
+```xml
      <labeller type="tfsRevisionLabeller">
         <project>$/Main/MyTestProject</project>
         <server>http://server:8080/tfs/Collection</server>
@@ -38,5 +38,21 @@ Modify your ccnet.config file, under the <project> node
         <domain>domain</domain>
         <major>1</major>
         <minor>4</minor>
+     </labeller>
+```
+
+The complete config  as bellow:
+```xml
+     <labeller type="tfsRevisionLabeller">
+	    <executable>c:\program\tf.exe</executable>  <!- Optional ->
+        <project>$/Main/MyTestProject</project>
+        <server>http://server:8080/tfs/Collection</server>
+        <username>user</username>
+        <password>password</password>
+        <domain>domain</domain>
+        <major>1</major>
+        <minor>4</minor>
+		<build>1234</build>       <!- Optional, will overwrite server revision->
+		<prefix>UAT-</prefix>		<!- Optional->
      </labeller>
 ```
